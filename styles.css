@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+
+/* global styles */
+header {
+    text-align: center;
+    color: rgb(34, 3, 30);
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(246, 234, 243);
+    text-align: center; /* Center the content horizontally */
+}
+
+p {
+    font-style: italic;
+    color: rgb(252, 248, 252);
+    background-color: rgb(239, 38, 162) !important;
+}
+
+/* main styles */
+.helloKittyCafeImage, .viewCafeLink {
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+
+}
+
+.viewCafeLink {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(127, 41, 103);
+}
+
+.info {
+    color: rgb(238, 4, 250);
+}
+
+#factSection {
+    background-color: rgb(239, 116, 190) ;
+    margin-top: 40px;
+}
+
+#quoteSection {
+    text-align: center;
+    background-color: rgb(228, 182, 211);
+    margin-top: 20px;
+}
+
+th {
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+section{
+    border: 2px solid black;
+    border-radius: 10px;
+}
